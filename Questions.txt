@@ -4,7 +4,7 @@ Link Lists:
 3) How would you delete an element from the link list?
 4) What is the difference (in code) when you use (node.head and node.tail) vs (node.prev and node.next)?
 5) What is the difference between a link list, a double link list, and a reverse link list?
-6) What would some of the use cases for a link list, double link list, and reverse link list look like?
+6) What would some of the use cases look like for a link list, double link list, and reverse link list?
 7) I've heard link lists are slow and nobody uses them anymore. If that is true what do we use instead?
 
 Queues:
