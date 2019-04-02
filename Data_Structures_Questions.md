@@ -72,3 +72,8 @@ Worst Case = O(n)
 O(1)
 
     a. Compare the runtime of the doubly linked list's `delete` method with the worst-case runtime of the JS `Array.splice` method. Which method generally performs better?
+    given a number of 100,000 iterations the slice of the (full array - 1) is "0.08600497245788574", and...
+        delete(head_node) = "0.0"
+        delete(tail_node) = "0.0"
+        delete(middle_node) = "0.003000020980834961"
+    the comparison is 28x faster
