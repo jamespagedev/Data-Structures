@@ -50,6 +50,26 @@ class BinarySearchTreeTests(unittest.TestCase):
         self.assertTrue(v4 in arr)
         self.assertTrue(v5 in arr)
 
+    # Used for passing an empty array instead of a callback
+    # def test_for_each(self):
+    #     v1 = random.randint(1, 101)
+    #     v2 = random.randint(1, 101)
+    #     v3 = random.randint(1, 101)
+    #     v4 = random.randint(1, 101)
+    #     v5 = random.randint(1, 101)
+    #     self.bst.insert(v1)
+    #     self.bst.insert(v2)
+    #     self.bst.insert(v3)
+    #     self.bst.insert(v4)
+    #     self.bst.insert(v5)
+    #     arr = self.bst.for_each([])
+    #     print(arr)
+    #     self.assertTrue(5 in arr)
+    #     self.assertTrue(v1 in arr)
+    #     self.assertTrue(v2 in arr)
+    #     self.assertTrue(v3 in arr)
+    #     self.assertTrue(v4 in arr)
+    #     self.assertTrue(v5 in arr)
 
 if __name__ == '__main__':
     unittest.main()

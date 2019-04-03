@@ -18,10 +18,23 @@ Reference - https://wiki.python.org/moin/TimeComplexity
 ## Binary Search Tree
 
 1. What is the runtime complexity of `insert`?
+* Worst Case -> O(h) - where h is the height of the tree.
+* Best Case -> O(log n) - since the tree contains n nodes that have a minimum of O(log n) levels, it takes at least O(log n) comparisons to find a particular node.
+* Average Case -> O(n) - a binary serch tree can degenerate to a linked list, reducing the search time to O(n).
 
 2. What is the runtime complexity of `contains`?
+Nearly the same logic as the insert, but instead of assigning the next node a None, it checks the current node value.
+Because the traversal is the same, the iterations until found can be the same as insert.
+* Worst Case -> O(h) - where h is the height of the tree.
+* Best Case -> O(log n) - since the tree contains n nodes that have a minimum of O(log n) levels, it takes at least O(log n) comparisons to find a particular node.
+* Average Case -> O(n) - a binary serch tree can degenerate to a linked list, reducing the search time to O(n).
 
 3. What is the runtime complexity of `get_max`?
+Much like the contains traversal, it must also check every increasing value until the final increasing value is found.
+However, because this search will only go in one direction (to the right), it removes the danger of having the tree degernate into a link list.
+* Worst Case -> O(h) - where h is the height of the tree.
+* Best Case -> O(log n) - since the tree contains n nodes that have a minimum of O(log n) levels, it takes at least O(log n) comparisons to find a particular node.
+* Average Case -> O(log n)
 
 ## Heap
 
