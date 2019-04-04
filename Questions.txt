@@ -1,0 +1,12 @@
+Link Lists:
+1) How would you insert an element into an empty link list? And what about a link list with only 1 element?
+2) How would you iterate along a link list to reach an element that isn't the head or tail of the list?
+3) How would you delete an element from the link list?
+4) What is the difference (in code) when you use (node.head and node.tail) vs (node.prev and node.next)?
+5) What is the difference between a link list, a double link list, and a reverse link list?
+6) What would some of the use cases look like for a link list, double link list, and reverse link list?
+7) I've heard link lists are slow and nobody uses them anymore. If that is true what do we use instead?
+
+Queues:
+1) Can you give some examples on when you would want to use FIFO vs FILO? What data structs exhibit this ordering?
+2) What data structs are used to implement a queue?
